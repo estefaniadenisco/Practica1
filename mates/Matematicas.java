@@ -1,11 +1,11 @@
-package Mates;
+package mates;
 
 import java.lang.Math;
 
 public class Matematicas{
 	public static double generarNumeroPi(long pasos){
 		long aciertos= 0;
-		long areaCuadrado= 4;
+		double areaCuadrado= 4.0;
 		int i= 1;
 
 		for(i=1; i<= pasos; i++){
@@ -17,7 +17,7 @@ public class Matematicas{
 			}
 
 		} 
-		return (double)(areaCuadrado*aciertos/pasos);
+		return areaCuadrado*aciertos/pasos;
 	}
 }
 

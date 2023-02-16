@@ -5,7 +5,7 @@ import java.lang.Math;
 public class Matematicas{
 	public static double generarNumeroPi(long pasos){
 		long aciertos= 0;
-		double areaCuadrado= 4.0;
+		double resultado= 4.0;
 		int i= 1;
 
 		for(i=1; i<= pasos; i++){
@@ -17,7 +17,7 @@ public class Matematicas{
 			}
 
 		} 
-		return areaCuadrado*aciertos/pasos;
+		return resultado*aciertos/pasos;
 	}
 }
 
